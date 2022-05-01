@@ -3,14 +3,14 @@ const menu = [{
     title: "Vanilla Javascript", 
     category: "JS", 
     icon: `/images/js.png`, 
-    link: `page2.html`, 
+    link: `/html/page2.html`, 
 }, 
 {
     id:2, 
     title: "CSS3 and HTML5", 
     category: "CSS&HTML", 
     icon: `/images/css.svg`, 
-    link: `page3.html`, 
+    link: `/html/page3.html`, 
 },
 ];
 
