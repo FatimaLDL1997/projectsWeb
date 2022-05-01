@@ -1,0 +1,170 @@
+@import "variables"; 
+@import "mixins";
+body{
+    margin: 0px;
+    background-color: $blue;
+}
+.middle2{
+    position: absolute;
+    width: 100%;
+    // height: 1118px;
+    height: 848px;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        position: relative;
+        h1{
+            color: $white;
+            margin: 30px;
+            font-family: $titleFont;
+            font-size: 6vmax;
+        }
+        h3{
+            color: $black;
+            font-family: $bodyFont;
+            font-size:2vmax;
+        }
+    }
+
+    &__buttonContainer {
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 40px;
+        
+    }
+    &__filterBtns {
+        background: $black;
+        width: 123px;   
+        height: 27px;
+        border-radius: 15px;
+        font-family: $bodyFont;
+        font-size: 100%;
+        margin: 11px;
+        color: $white;
+        border: none; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        &:hover {
+            background: $lightBlue;
+            color: $black;
+            width: 125px;   
+            height: 29px;
+            transition: ease-in 0.5s; 
+        }
+
+    }
+
+    &__projectsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+
+        position: relative;
+        
+    }
+    &__projects{
+        // margin: 15%;
+        text-align: center;
+        background: $lightBlue;
+        width: 397px;
+        height: 303px;
+        box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
+        border-radius: 26px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+        &:hover {
+            width: 410px;
+            height: 320px;
+            transition: ease-in-out 1s; 
+        }
+
+        @include breakpoint-down(small){
+            width: 200px;
+            height: 200px;
+            &:hover {
+                width: 230px;
+                height: 230px;
+                transition: ease-in-out 1s; 
+            }
+        }
+
+       
+    }
+    &__image {
+        background-repeat: no-repeat;   
+        // filter: drop-shadow(-24px 24px 23px rgba(0, 0, 0, 0.25));
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        background-size: 100%;
+        width: 111px;
+        height: 99px;
+
+        display: flex;
+        align-self: center;
+    }
+    &__blackContainer {
+        // display: flex;
+        align-items: center;
+        background-color: $black;
+        height: 68px;
+
+        @include breakpoint-down(small){
+            height: 30px;
+        }
+    }
+    &__title {
+        h1{
+            color: $white;
+            position: relative;
+            font-size: 24px;
+            @include breakpoint-down(small){
+                font-size: 10px;
+            }
+        }
+    }
+    &__linkLogo {
+        background-image: url('/images/linkIcon.png');
+
+        background-repeat: no-repeat; 
+        background-size: 100%;
+        width: 10%;
+        // height: 96%;
+        // position: relative;
+        // top: -4%;
+        // left: 1%;
+
+        
+    }
+    a{
+        position: relative;
+        top: -83%;
+        left: 43%;
+        height: 50px;
+        display: inline-block;
+        text-decoration: none;
+        &:hover {
+            width: 11%;
+            top: -90%;
+            transition: ease-in-out 1s; 
+        }
+    }
+}

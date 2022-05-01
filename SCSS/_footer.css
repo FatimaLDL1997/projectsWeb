@@ -1,0 +1,20 @@
+.footer__container {
+  display: grid;
+  align-content: center;
+  background-color: black;
+  height: 6%;
+  position: absolute;
+  bottom: -285px;
+  width: 100%;
+}
+
+.footer__text {
+  text-align: center;
+}
+
+.footer__text h3 {
+  font-size: 1vmax;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  margin-top: 0px;
+}

@@ -1,0 +1,25 @@
+@import "variables"; 
+@import "mixins"; 
+.footer{
+    &__container{
+        display: grid;
+        align-content: center;
+        background-color: $black;
+        
+        height: 6%;
+        position: absolute;
+        bottom: -285px;
+        width: 100%;
+
+    }
+    &__text {
+        text-align: center;
+        h3{
+            font-size: 1vmax;
+            font-family: $bodyFont;
+            color: $white ;
+            margin-top: 0px;
+            
+        }
+    }
+}

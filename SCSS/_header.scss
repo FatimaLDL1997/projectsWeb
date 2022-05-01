@@ -1,0 +1,19 @@
+@import "variables"; 
+@import "mixins"; 
+.header{
+    background-color: $darkBlue;
+    height: 105px;
+    position: relative;
+    box-shadow: 2px 15px 17px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    &__backIcon{
+        width: 32px;
+        height: 35px;
+        background-image: url('/images/return.png');
+        background-repeat: no-repeat; 
+        float: right;
+        background-size: 100% auto;
+        margin: 33px;
+        
+    }
+}
