@@ -9,7 +9,7 @@ const menu = [{
     id:2, 
     title: "CSS3 and HTML5", 
     category: "CSS&HTML", 
-    icon: `/images/css.svg`, 
+    icon: `/images/css.png`, 
     link: `page3.html`, 
 },
 ];
