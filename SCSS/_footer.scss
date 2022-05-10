@@ -1,15 +1,26 @@
 @import "variables"; 
 @import "mixins"; 
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
 .footer{
+    margin-top: auto;
+
+    
     &__container{
+        
+        margin-top: auto;
+        
         display: grid;
         align-content: center;
         background-color: $black;
-        
-        height: 6%;
-        position: absolute;
-        bottom: -285px;
-        width: 100%;
+        padding: 10px;
 
     }
     &__text {

@@ -3,12 +3,6 @@ body {
   background-color: #92deef;
 }
 
-.middle1 {
-  position: absolute;
-  width: 100%;
-  height: 848px;
-}
-
 .middle1__container {
   display: flex;
   flex-direction: column;
