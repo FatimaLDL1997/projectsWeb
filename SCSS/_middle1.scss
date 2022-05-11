@@ -5,11 +5,11 @@ body{
     background-color: $blue;
 }
 .middle1{
+    
     &__container{
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
     &__text{
         display: flex;
@@ -138,19 +138,8 @@ body{
         }
     }
 
-    a{
+    a {
         text-decoration: none;
     }
-    // &__linkLogo {
-    //     background-image: url('/images/linkIcon.png');
 
-    //     background-repeat: no-repeat; 
-    //     background-size: 100%;
-    //     width: 12%;
-    //     height: 96%;
-    //     position: relative;
-    //     top: -86%;
-    //     left: 86%;
-
-    // }
 }
