@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #2F4550;
+  background-color: #203E4C;
 }
 
 .middle2__container {
@@ -112,6 +112,7 @@ body {
 .middle2__title h1 {
   margin-right: 8px;
   color: #F4F4F9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
   font-size: 24px;
 }

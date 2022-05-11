@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #2F4550;
+  background-color: #203E4C;
 }
 
 .middle1__container {
@@ -55,8 +55,8 @@ body {
 }
 
 .middle1__filterBtns:hover {
-  background: #F4F4F9;
-  color: black;
+  background: #586F7C;
+  color: #F4F4F9;
   width: 125px;
   height: 29px;
   transition: ease-in 0.5s;
@@ -75,8 +75,8 @@ body {
 .middle1__projects {
   text-align: center;
   background: #B8DBD9;
-  width: 240px;
-  height: 303px;
+  width: 300px;
+  height: 238px;
   box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
   border-radius: 0px;
   margin-left: 20px;
@@ -87,17 +87,20 @@ body {
 }
 
 .middle1__projects:hover {
-  background: #2F4550;
+  background: #21333b;
   transition: ease-in-out 1s;
+}
+
+.middle1__projects:hover h1 {
+  color: #21333b;
 }
 
 @media (max-width: 51.1333em) {
   .middle1__projects {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 177px;
   }
   .middle1__projects:hover {
-    background: #2F4550;
     transition: ease-in-out 1s;
   }
 }
@@ -127,6 +130,7 @@ body {
 
 .middle1__title h1 {
   color: #F4F4F9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
   font-size: 24px;
 }

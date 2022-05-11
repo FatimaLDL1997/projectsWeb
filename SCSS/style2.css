@@ -1,6 +1,6 @@
 .header {
   background-color: #B8DBD9;
-  height: 55px;
+  height: 111px;
   position: relative;
   -webkit-box-shadow: 2px 15px 17px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 15px 17px rgba(0, 0, 0, 0.25);
@@ -19,7 +19,7 @@
 
 body {
   margin: 0px;
-  background-color: #2F4550;
+  background-color: #203E4C;
 }
 
 .middle2__container {
@@ -176,6 +176,7 @@ body {
 .middle2__title h1 {
   margin-right: 8px;
   color: #F4F4F9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
   font-size: 24px;
 }
@@ -228,12 +229,10 @@ body {
 
 .footer__container {
   margin-top: auto;
-  display: -ms-grid;
-  display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
   background-color: #B8DBD9;
-  padding: 10px;
+  padding: 5px;
 }
 
 .footer__text {
@@ -242,8 +241,7 @@ body {
 
 .footer__text h3 {
   font-size: 1vmax;
-  font-family: "Dosis", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
-  margin-top: 0px;
 }
 /*# sourceMappingURL=style2.css.map */
