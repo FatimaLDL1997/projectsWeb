@@ -48,7 +48,9 @@ function displayMenuItems(menuItems){
                 <div class="middle2__title">
                     <h1>${item.title}</h1>
                 </div>
-                <a href = ${item.link} target = "_blank"  class="middle2__linkLogo"></a>
+                <div class = "middle2__linkContainer">
+                    <a href = ${item.link} target = "_blank"  class="middle2__linkLogo"></a>
+                </div>
             </div>
         </div>`; 
     }) 
