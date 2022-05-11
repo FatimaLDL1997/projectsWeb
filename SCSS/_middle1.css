@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: #92deef;
+  background-color: #2F4550;
 }
 
 .middle1__container {
@@ -18,10 +18,12 @@ body {
 }
 
 .middle1__text h1 {
-  color: white;
+  color: #B8DBD9;
   margin: 30px;
-  font-family: "Kalam", cursive;
+  margin-bottom: -10px;
+  font-family: "sans";
   font-size: 6vmax;
+  padding-bottom: 25px;
 }
 
 .middle1__text h3 {
@@ -40,20 +42,20 @@ body {
 }
 
 .middle1__filterBtns {
-  background: black;
+  background: #B8DBD9;
   width: 123px;
   height: 27px;
-  border-radius: 15px;
+  border-radius: 0px;
   font-family: "Dosis", sans-serif;
   font-size: 100%;
   margin: 11px;
-  color: white;
+  color: black;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .middle1__filterBtns:hover {
-  background: #c2e7ef;
+  background: #F4F4F9;
   color: black;
   width: 125px;
   height: 29px;
@@ -72,11 +74,11 @@ body {
 
 .middle1__projects {
   text-align: center;
-  background: #c2e7ef;
-  width: 397px;
+  background: #B8DBD9;
+  width: 240px;
   height: 303px;
   box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
-  border-radius: 26px;
+  border-radius: 0px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -85,8 +87,7 @@ body {
 }
 
 .middle1__projects:hover {
-  width: 410px;
-  height: 320px;
+  background: #2F4550;
   transition: ease-in-out 1s;
 }
 
@@ -96,16 +97,14 @@ body {
     height: 200px;
   }
   .middle1__projects:hover {
-    width: 230px;
-    height: 230px;
+    background: #2F4550;
     transition: ease-in-out 1s;
   }
 }
 
 .middle1__image {
   background-repeat: no-repeat;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
   background-size: 100%;
   width: 111px;
   height: 99px;
@@ -115,8 +114,9 @@ body {
 
 .middle1__blackContainer {
   align-items: center;
-  background-color: black;
+  background-color: #586F7C;
   height: 68px;
+  margin-top: 51px;
 }
 
 @media (max-width: 51.1333em) {
@@ -126,7 +126,7 @@ body {
 }
 
 .middle1__title h1 {
-  color: white;
+  color: #F4F4F9;
   position: relative;
   font-size: 24px;
 }

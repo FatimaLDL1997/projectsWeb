@@ -2,7 +2,7 @@
 @import "mixins";
 body{
     margin: 0px;
-    background-color: $blue;
+    background-color: $darkBlue;
 }
 .middle1{
     
@@ -18,10 +18,12 @@ body{
         text-align: center;
         position: relative;
         h1{
-            color: $white;
+            color: $green;
             margin: 30px;
+            margin-bottom: -10px;
             font-family: $titleFont;
             font-size: 6vmax;
+            padding-bottom: 25px;
         }
         h3{
             color: $black;
@@ -40,19 +42,19 @@ body{
         
     }
     &__filterBtns {
-        background: $black;
+        background: $green;
         width: 123px;   
         height: 27px;
-        border-radius: 15px;
+        border-radius: 0px;
         font-family: $bodyFont;
         font-size: 100%;
         margin: 11px;
-        color: $white;
+        color: $black;
         border: none; 
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
         &:hover {
-            background: $lightBlue;
+            background: $white;
             color: $black;
             width: 125px;   
             height: 29px;
@@ -74,11 +76,11 @@ body{
     &__projects{
         // margin: 15%;
         text-align: center;
-        background: $lightBlue;
-        width: 397px;
+        background: $green;
+        width: 240px;
         height: 303px;
         box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
-        border-radius: 26px;
+        border-radius: 0px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
@@ -87,8 +89,7 @@ body{
         flex-direction: column;
 
         &:hover {
-            width: 410px;
-            height: 320px;
+            background: #2F4550;
             transition: ease-in-out 1s; 
         }
 
@@ -96,8 +97,7 @@ body{
             width: 200px;
             height: 200px;
             &:hover {
-                width: 230px;
-                height: 230px;
+                background: #2F4550;
                 transition: ease-in-out 1s; 
             }
         }
@@ -105,8 +105,8 @@ body{
     &__image {
         background-repeat: no-repeat;   
         // filter: drop-shadow(-24px 24px 23px rgba(0, 0, 0, 0.25));
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        // margin-bottom: 10px;
         
         background-size: 100%;
         width: 111px;
@@ -118,12 +118,14 @@ body{
     &__blackContainer {
         // display: flex;
         align-items: center;
-        background-color: $black;
+        background-color: $grey;
         height: 68px;
+        margin-top: 51px;
 
         @include breakpoint-down(small){
             height: 30px;
         }
+        
     }
     &__title {
         h1{

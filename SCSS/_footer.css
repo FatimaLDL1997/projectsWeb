@@ -16,7 +16,7 @@ body {
   margin-top: auto;
   display: grid;
   align-content: center;
-  background-color: black;
+  background-color: #B8DBD9;
   padding: 10px;
 }
 
@@ -27,6 +27,6 @@ body {
 .footer__text h3 {
   font-size: 1vmax;
   font-family: "Dosis", sans-serif;
-  color: white;
+  color: black;
   margin-top: 0px;
 }

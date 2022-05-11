@@ -1,5 +1,5 @@
 .header {
-  background-color: #479fb2;
+  background-color: #B8DBD9;
   height: 55px;
   position: relative;
   -webkit-box-shadow: 2px 15px 17px rgba(0, 0, 0, 0.25);
@@ -19,7 +19,7 @@
 
 body {
   margin: 0px;
-  background-color: #92deef;
+  background-color: #2F4550;
 }
 
 .middle2__container {
@@ -50,9 +50,10 @@ body {
 }
 
 .middle2__text h1 {
-  color: white;
+  color: #B8DBD9;
   margin: 30px;
-  font-family: "Kalam", cursive;
+  margin-bottom: -10px;
+  font-family: "sans";
   font-size: 6vmax;
 }
 
@@ -74,25 +75,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 40px;
-}
-
-.middle2__filterBtns {
-  background: black;
-  width: 123px;
-  height: 27px;
-  border-radius: 15px;
-  font-family: "Dosis", sans-serif;
-  font-size: 100%;
-  margin: 11px;
-  color: white;
-  border: none;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.middle2__filterBtns:hover {
-  background: #c2e7ef;
-  color: black;
 }
 
 .middle2__projectsContainer {
@@ -121,7 +103,7 @@ body {
   height: 303px;
   -webkit-box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
           box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
-  border-radius: 26px;
+  border-radius: 0px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -134,14 +116,22 @@ body {
           flex-direction: column;
 }
 
+.middle2__projects:hover {
+  background: #21333b;
+  -webkit-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+}
+
+.middle2__projects:hover h1 {
+  color: #21333b;
+}
+
 @media (max-width: 51.1333em) {
   .middle2__projects {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 177px;
   }
   .middle2__projects:hover {
-    width: 230px;
-    height: 230px;
     -webkit-transition: ease-in-out 1s;
     transition: ease-in-out 1s;
   }
@@ -150,7 +140,7 @@ body {
 .middle2__image {
   background-repeat: no-repeat;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: -13px;
   background-size: 100%;
   width: 111px;
   height: 99px;
@@ -165,39 +155,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: black;
+  background-color: #586F7C;
   height: 68px;
+  margin-top: 51px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
 }
 
 @media (max-width: 51.1333em) {
   .middle2__blackContainer {
     height: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
 .middle2__title h1 {
   margin-right: 8px;
-  color: white;
+  color: #F4F4F9;
   position: relative;
   font-size: 24px;
 }
@@ -212,14 +190,16 @@ body {
   background-image: url("/images/linkIcon.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 20px;
 }
 
 .middle2 a {
-  height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-decoration: none;
 }
 
@@ -252,7 +232,7 @@ body {
   display: grid;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: black;
+  background-color: #B8DBD9;
   padding: 10px;
 }
 
@@ -263,7 +243,7 @@ body {
 .footer__text h3 {
   font-size: 1vmax;
   font-family: "Dosis", sans-serif;
-  color: white;
+  color: black;
   margin-top: 0px;
 }
 /*# sourceMappingURL=style2.css.map */

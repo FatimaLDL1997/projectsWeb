@@ -2,7 +2,7 @@
 @import "mixins";
 body{
     margin: 0px;
-    background-color: $blue;
+    background-color: $darkBlue;
 }
 .middle2{
 
@@ -18,8 +18,9 @@ body{
         text-align: center;
         position: relative;
         h1{
-            color: $white;
+            color: $green;
             margin: 30px;
+            margin-bottom: -10px;
             font-family: $titleFont;
             font-size: 6vmax;
         }
@@ -38,27 +39,6 @@ body{
         justify-content: center;
         padding-bottom: 40px;
         
-    }
-    &__filterBtns {
-        background: $black;
-        width: 123px;   
-        height: 27px;
-        border-radius: 15px;
-        font-family: $bodyFont;
-        font-size: 100%;
-        margin: 11px;
-        color: $white;
-        border: none; 
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        
-        &:hover {
-            background: $lightBlue;
-            color: $black;
-        //     width: 125px;   
-        //     height: 29px;
-        //     transition: ease-in 0.5s; 
-        }
-
     }
 
     &__projectsContainer{
@@ -79,7 +59,7 @@ body{
         width: 397px;
         height: 303px;
         box-shadow: -7px 7px 18px rgba(0, 0, 0, 0.34);
-        border-radius: 26px;
+        border-radius: 0px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
@@ -87,17 +67,18 @@ body{
         display: flex;
         flex-direction: column;
         &:hover {
-            // width: 410px;
-            // height: 320px;
-            // transition: ease-in-out 1s; 
+            background: #21333b;
+            transition: ease-in-out 1s; 
+            h1 {
+                color: #21333b;
+            }
         }
 
         @include breakpoint-down(small){
-            width: 200px;
-            height: 200px;
+            width: 220px;
+            height: 177px;
             &:hover {
-                width: 230px;
-                height: 230px;
+
                 transition: ease-in-out 1s; 
             }
         }
@@ -108,7 +89,7 @@ body{
         background-repeat: no-repeat;   
         // filter: drop-shadow(-24px 24px 23px rgba(0, 0, 0, 0.25));
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: -13px;
         
         background-size: 100%;
         width: 111px;
@@ -118,20 +99,15 @@ body{
         align-self: center;
     }
     &__blackContainer {
-        // display: flex;
         align-items: center;
-        background-color: $black;
+        background-color: $grey;
         height: 68px;
-
+        margin-top: 51px;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-flow: column-reverse;
 
         @include breakpoint-down(small){
             height: 30px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
         }
     }
     &__title {
@@ -143,24 +119,22 @@ body{
             @include breakpoint-down(small){
                 font-size: 10px;
             }
+            
         }
-    }
-    &__linkLogo {
-        // width: auto;
-        // height: auto;        
     }
 
     &__linkContainer {
+        
         background-image: url('/images/linkIcon.png');
 
         background-repeat: no-repeat; 
         background-size: 100%;
-        width: 20px;
+        
     }
 
     a {
-        height: 20px;
         display: flex;
+        flex-direction: column;
         text-decoration: none;
 
         &:hover {

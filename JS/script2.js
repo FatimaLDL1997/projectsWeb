@@ -40,7 +40,8 @@ function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
       console.log(item);
   
-      return `<div class="middle2__projects">
+        return `<div href class="middle2__projects">
+        <a href = ${item.link} target = "_blank"  class="middle2__linkLogo">
             <div class="middle2__image">
                 <img src = ${item.icon} alt=${item.title} class = "middle2__image" />
             </div>
@@ -48,10 +49,9 @@ function displayMenuItems(menuItems){
                 <div class="middle2__title">
                     <h1>${item.title}</h1>
                 </div>
-                <div class = "middle2__linkContainer">
-                    <a href = ${item.link} target = "_blank"  class="middle2__linkLogo"></a>
-                </div>
+                
             </div>
+        </a>
         </div>`; 
     }) 
   
