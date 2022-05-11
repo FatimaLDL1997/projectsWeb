@@ -12,14 +12,14 @@ body {
 .footer{
     margin-top: auto;
 
-    
     &__container{
         
         margin-top: auto;
         
+        display: grid;
         align-content: center;
         background-color: $green;
-        padding: 5px;
+        padding: 10px;
 
     }
     &__text {
@@ -27,8 +27,10 @@ body {
         text-align: center;
         h3{
             font-size: 1vmax;
-            font-family: Arial, Helvetica, sans-serif;
-            color: $black;            
+            font-family:Arial, Helvetica, sans-serif;
+            color: $black;
+            margin-top: 0px;
+            
         }
     }
 }
