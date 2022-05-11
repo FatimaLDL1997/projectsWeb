@@ -2,7 +2,7 @@
 @import "mixins"; 
 .header{
     background-color: $darkBlue;
-    height: 105px;
+    height: 55px;
     position: relative;
     box-shadow: 2px 15px 17px rgba(0, 0, 0, 0.25);
     z-index: 1;
@@ -13,7 +13,7 @@
         background-repeat: no-repeat; 
         float: right;
         background-size: 100% auto;
-        margin: 33px;
+        margin: 10px;
         
     }
 }
