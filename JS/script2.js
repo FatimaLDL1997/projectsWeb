@@ -11,7 +11,7 @@ const menu = [
     title: "Grocery Bud", 
     category: "JS", 
     icon: `/images/grocery.png`, 
-    link: `https://grocery-list-for-me.netlify.app/`, 
+    link: `https://groceries-budlist.netlify.app/`, 
 },
 ];
 

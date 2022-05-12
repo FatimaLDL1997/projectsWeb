@@ -1,18 +1,18 @@
 const menu = [
-{
-    id:1, 
-    title: "Colors", 
-    category: "JS", 
-    icon: `/images/yoga.png`, 
-    link: `https://fatimaldl1997.github.io/page5.html`, 
-}, 
-{
-    id:2, 
-    title: "Nice Design", 
-    category: "JS", 
-    icon: `/images/grocery.png`, 
-    link: `https://grocery-list-for-me.netlify.app/`, 
-},
+// {
+//     id:1, 
+//     title: "Colors", 
+//     category: "JS", 
+//     icon: `/images/yoga.png`, 
+//     link: `https://fatimaldl1997.github.io/page5.html`, 
+// }, 
+// {
+//     id:2, 
+//     title: "Nice Design", 
+//     category: "JS", 
+//     icon: `/images/grocery.png`, 
+//     link: `https://grocery-list-for-me.netlify.app/`, 
+// },
 ];
 
 
