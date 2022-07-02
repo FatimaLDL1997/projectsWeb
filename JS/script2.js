@@ -11,8 +11,16 @@ const menu = [
     title: "Grocery Bud", 
     category: "JS", 
     icon: `/images/grocery.png`, 
-    link: `https://groceries-budlist.netlify.app/`, 
+    link: `https://groceryhelper2022.netlify.app/`, 
 },
+{
+    id:3, 
+    title: "Personal Porfolio", 
+    category: "JS", 
+    icon: `/images/grocery.png`, 
+    link: `https://fatima-labade.netlify.app/index.html/`, 
+},
+
 ];
 
 
@@ -30,10 +38,9 @@ const menu = [
 const middle = document.querySelector(".middle2__projectsContainer"); 
 const container = document.querySelector(".middle2__buttonContainer"); 
 
-window.addEventListener("DOMContentLoaded", function () {
-    displayMenuItems(menu);
-    displayMenuButtons(); 
-    });
+window.addEventListener("DOMContentLoaded", () => 
+    displayMenuItems(menu)
+);
 
 
 function displayMenuItems(menuItems){
